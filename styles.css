@@ -1,0 +1,132 @@
+/* Reset & Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #2C3E50, #4CA1AF);
+    color: white;
+    text-align: center;
+}
+
+/* Header & Navigation */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 50px;
+}
+
+.hero-text {
+    max-width: 50%;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.highlight {
+    color: #f39c12;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #f39c12;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero-img{
+    padding: 20px;
+    border-radius: 10%;
+}
+
+/* About Section */
+.about {
+    padding: 50px;
+    background: #34495e;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px;
+}
+
+.project-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project {
+    background: #2C3E50;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px;
+    background: #34495e;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    background: #f39c12;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
